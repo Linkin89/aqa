@@ -20,6 +20,9 @@ const user_invalid = [
     {login: 'aqa', password: 'invalid_pass'},
     {login: 'invalid_login', password: 'test123'},
     {login: 'invalid_login', password: 'invalid_pass'},
+    {login: 'aqa', password: ''},
+    {login: '', password: 'test123'},
+    {login: '', password: ''},
     ]
 
 user_invalid.forEach(({login, password}) => {
